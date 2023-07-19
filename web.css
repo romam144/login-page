@@ -40,6 +40,10 @@ body{
 
 }
 
+.form-right{
+    float: right;
+}
+
 .input{
     color: white;
     margin: 20px;
