@@ -1,0 +1,125 @@
+:root{
+    --cyan:cyan;
+}
+
+body{
+    background-image: url("1508738.jpg");
+    
+}
+
+.form-body{
+    background: rgba(0, 0, 0, 0.96);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    padding: 80px;
+}
+
+.form-body h1{
+    position: relative;
+    top: 80px;
+    right: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.form-body form{
+    position: relative;
+    top: 100px;
+}
+
+.form {
+    height: 180px;
+    width: 110%;
+    position: relative;
+    right: 7.5%;
+    padding-top: 20px;
+    background: rgb(5, 5, 5);
+
+}
+
+.input{
+    color: white;
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+input { 
+    background: black;
+    outline: none;
+    height: 30px;
+    width: 300px;
+    border-style:double;
+    border-color: rgb(22, 22, 22);
+    color: white;
+}
+
+input:focus{
+    border-color: var(--cyan);
+    border-width: 2px;
+}
+
+input:invalid{
+    outline: none;
+    border-color: red;
+}
+
+
+
+button{
+    height: 55px;
+    width: 250px;
+    position: relative;
+    top: 35px;
+    right: 3.5%;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    border-color: var(--cyan);
+    color: white;
+}
+
+span{
+    position: absolute;
+    right: 50%;
+    bottom: -8%;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    color: var(--cyan);
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 37%;
+    height: 10%;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align:center;
+    
+}
+
+.logo h1{
+    color: rgb(221, 217, 217);
+    -webkit-text-stroke: 0.5px var(--cyan);
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 10%;
+    
+
+}
+
+img[src="atom-png-10.png"] {
+    float: left;
+    position: absolute;
+    height: 100px;
+    left: 25%;
+    bottom: 0;   
+}
